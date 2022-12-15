@@ -7,8 +7,6 @@
   'Condiments',
  ];
 
-
-
 const ingredientsEl = document.querySelector('#ingredients');
 
 const createItemEl = ingredients.map(el => {
@@ -18,6 +16,5 @@ const createItemEl = ingredients.map(el => {
 
   return ingredientItemsEl;
 });
-
 
 ingredientsEl.append(...createItemEl);
